@@ -1,0 +1,5 @@
+opencv-python
+paddleocr
+paddlepaddle==2.5.2  # Use paddlepaddle only (CPU-based)
+# or paddlepaddle-gpu==2.5.2.post120 if GPU + CUDA 12
+requests
