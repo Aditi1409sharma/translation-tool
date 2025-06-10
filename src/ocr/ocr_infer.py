@@ -63,7 +63,7 @@ def run_final_ocr(image_np, image_name="final_output"):
 
 # --- Run everything ---
 if __name__ == "__main__":
-    image_path = "tests/images/frame_original.jpg"
+    image_path = "tests/images/frame_original1.jpg"
     original_img = cv2.imread(image_path)
     preprocessed_img = preprocess_image(original_img)
     run_final_ocr(preprocessed_img, image_name="preprocessed_final")
