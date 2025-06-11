@@ -61,7 +61,6 @@ def run_final_ocr(image_np, image_name="final_output"):
         for t, s in zip(txts, scores):
             f.write(f"{t},{s:.2f}\n")
 
-# --- Run everything ---
 if __name__ == "__main__":
     image_path = "tests/images/frame_original1.jpg"
     original_img = cv2.imread(image_path)
