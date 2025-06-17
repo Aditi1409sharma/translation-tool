@@ -13,52 +13,32 @@ START_IDX = 6001
 END_IDX = 7000
 
 # --- Rotate Image ---
-def rotate_image(img, angle):
-    if angle == 0:
-        return img
-    (h, w) = img.shape[:2]
-    center = (w // 2, h // 2)
-    rot_mat = cv2.getRotationMatrix2D(center, angle, 1.0)
-    return cv2.warpAffine(img, rot_mat, (w, h), flags=cv2.INTER_LINEAR)
+# def rotate_image(img, angle):
+#     if angle == 0:
+#         return img
+#     (h, w) = img.shape[:2]
+#     center = (w // 2, h // 2)
+#     rot_mat = cv2.getRotationMatrix2D(center, angle, 1.0)
+#     return cv2.warpAffine(img, rot_mat, (w, h), flags=cv2.INTER_LINEAR)
 
-# # --- CLAHE for Low Contrast Enhancement ---
-# def apply_clahe(img):
-#     lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
-#     l, a, b = cv2.split(lab)
-#     clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
-#     cl = clahe.apply(l)
-#     merged = cv2.merge((cl, a, b))
-#     return cv2.cvtColor(merged, cv2.COLOR_LAB2BGR)
+# def get_best_rotation(img):
+#     best_score, best_result = -1, None
+#     for angle in [0, 90, 180, 270]:
+#         rotated = rotate_image(img, angle)
+#         result = ocr.ocr(rotated, cls=True)
 
-# # --- Simple Contrast Heuristic ---
-# def is_low_contrast(img, threshold=30):
-#     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-#     return np.std(gray) < threshold
+#         score_sum, count = 0, 0
+#         for line in result:
+#             for _, (_, score) in line:
+#                 score_sum += score
+#                 count += 1
+#         avg_score = score_sum / count if count else 0
 
-# # --- Optional Sharpening for Blurred Images ---
-# def sharpen_image(img):
-#     kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-#     return cv2.filter2D(img, -1, kernel)
+#         if avg_score > best_score:
+#             best_score = avg_score
+#             best_result = result
 
-# --- Get Best OCR Result Among Rotations ---
-def get_best_rotation(img):
-    best_score, best_result = -1, None
-    for angle in [0, 90, 180, 270]:
-        rotated = rotate_image(img, angle)
-        result = ocr.ocr(rotated, cls=True)
-
-        score_sum, count = 0, 0
-        for line in result:
-            for _, (_, score) in line:
-                score_sum += score
-                count += 1
-        avg_score = score_sum / count if count else 0
-
-        if avg_score > best_score:
-            best_score = avg_score
-            best_result = result
-
-    return best_result, best_score
+#     return best_result, best_score
 
 # --- Initialize CSV ---
 with open(LOG_FILE, "w", encoding="utf-8") as f:
@@ -78,21 +58,26 @@ for idx in tqdm(range(START_IDX, END_IDX + 1), desc="Evaluating Enhanced OCR"):
         print(f"[ERROR] Could not read: {img_path}")
         continue
 
-    # # --- Optional Enhancement ---
-    # if is_low_contrast(img):
-    #     img = apply_clahe(img)
 
     # img = sharpen_image(img)
     preprocessed = preprocess_image(img)
 
-    # --- First OCR Attempt ---
-    result, best_score = get_best_rotation(preprocessed)
+    # --- First OCR Attempt without rotation ---
+    result = ocr.ocr(preprocessed, cls=True)
 
-    # --- Fallback: Resize if confidence too low ---
-    if best_score < 0.3:
+    # --- Fallback: Resize if no boxes or very low average confidence ---
+    score_sum, count = 0, 0
+    for line in result:
+        for _, (_, score) in line:
+            score_sum += score
+            count += 1
+    avg_score = score_sum / count if count else 0
+
+    if avg_score < 0.3:
         resized = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
         preprocessed = preprocess_image(resized)
-        result, best_score = get_best_rotation(preprocessed)
+        result = ocr.ocr(preprocessed, cls=True)
+
 
     # --- Confidence Calculation ---
     total, retained, score_sum = 0, 0, 0.0

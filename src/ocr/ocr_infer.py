@@ -17,6 +17,7 @@ def preprocess_image(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     denoised = cv2.medianBlur(gray, 3)
     return denoised
+    # return gray
 
 # --- OCR & Save Function ---
 def run_final_ocr(image_np, image_name="final_output"):
@@ -62,7 +63,10 @@ def run_final_ocr(image_np, image_name="final_output"):
             f.write(f"{t},{s:.2f}\n")
 
 if __name__ == "__main__":
-    image_path = "tests/images/frame_original1.jpg"
+    image_path = "tests/images/frame_original2.jpg"
     original_img = cv2.imread(image_path)
     preprocessed_img = preprocess_image(original_img)
+    prefix1 = "preprocessed"
+    preprocessed_img1 = Image.fromarray(preprocessed_img)
+    preprocessed_img1.save(f"{prefix1}image_boxed.jpg")
     run_final_ocr(preprocessed_img, image_name="preprocessed_final")
