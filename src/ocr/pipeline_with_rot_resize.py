@@ -13,32 +13,32 @@ START_IDX = 6001
 END_IDX = 7000
 
 # --- Rotate Image ---
-# def rotate_image(img, angle):
-#     if angle == 0:
-#         return img
-#     (h, w) = img.shape[:2]
-#     center = (w // 2, h // 2)
-#     rot_mat = cv2.getRotationMatrix2D(center, angle, 1.0)
-#     return cv2.warpAffine(img, rot_mat, (w, h), flags=cv2.INTER_LINEAR)
+def rotate_image(img, angle):
+    if angle == 0:
+        return img
+    (h, w) = img.shape[:2]
+    center = (w // 2, h // 2)
+    rot_mat = cv2.getRotationMatrix2D(center, angle, 1.0)
+    return cv2.warpAffine(img, rot_mat, (w, h), flags=cv2.INTER_LINEAR)
 
-# def get_best_rotation(img):
-#     best_score, best_result = -1, None
-#     for angle in [0, 90, 180, 270]:
-#         rotated = rotate_image(img, angle)
-#         result = ocr.ocr(rotated, cls=True)
+def get_best_rotation(img):
+    best_score, best_result = -1, None
+    for angle in [0, 90, 180, 270]:
+        rotated = rotate_image(img, angle)
+        result = ocr.ocr(rotated, cls=True)
 
-#         score_sum, count = 0, 0
-#         for line in result:
-#             for _, (_, score) in line:
-#                 score_sum += score
-#                 count += 1
-#         avg_score = score_sum / count if count else 0
+        score_sum, count = 0, 0
+        for line in result:
+            for _, (_, score) in line:
+                score_sum += score
+                count += 1
+        avg_score = score_sum / count if count else 0
 
-#         if avg_score > best_score:
-#             best_score = avg_score
-#             best_result = result
+        if avg_score > best_score:
+            best_score = avg_score
+            best_result = result
 
-#     return best_result, best_score
+    return best_result, best_score
 
 # --- Initialize CSV ---
 with open(LOG_FILE, "w", encoding="utf-8") as f:
