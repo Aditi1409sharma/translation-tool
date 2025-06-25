@@ -1,0 +1,28 @@
+aditi@DESKTOP-A2EKH16 MINGW64 ~/translation tool (CO_project)
+$ python src/ocr/v1.0_evaluator.py 
+Found 3 CSV files to evaluate.
+
+Evaluating:   0%|                                                                                                                                                                                                                                           | 0/3 [00:00<?, ?it/s]
+[boxes_clip1.5_alpha0.9_scale2.csv]
+TP = 263, FP = 105, FN = 345
+Precision = 0.7147
+Recall    = 0.4326
+F1 Score  = 0.5389
+
+[boxes_clip1.7_alpha0.9_scale2.csv]
+TP = 252, FP = 110, FN = 356
+Precision = 0.6961
+Recall    = 0.4145
+F1 Score  = 0.5196
+Evaluating:  67%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                           | 2/3 [00:00<00:00, 19.27it/s] 
+[boxes_clip2.0_alpha0.9_scale2.csv]
+TP = 227, FP = 102, FN = 381
+Precision = 0.6900
+Recall    = 0.3734
+F1 Score  = 0.4845
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 21.41it/s] 
+
+===== BEST PARAM RANKING (by F1) =====
+01. F1=0.5389  clip=1.5  alpha=-1  [ boxes_clip1.5_alpha0.9_scale2.csv ]
+02. F1=0.5196  clip=1.7  alpha=-1  [ boxes_clip1.7_alpha0.9_scale2.csv ]
+03. F1=0.4845  clip=2.0  alpha=-1  [ boxes_clip2.0_alpha0.9_scale2.csv ]

@@ -1,0 +1,83 @@
+$ python src/translation/good_vs_bad.py 
+
+--- High Fuzzy Score Images ---
+
+Image: tr_img_06077.txt
+Fuzzy_Avg: 0.815
+GT Text Lines (3):
+  - Tohoku
+  -  Let's go!
+  - Chiyotsu is a great trip.
+OCR Text Lines (4):
+  - Tohoku
+  - Let's go!
+  - On the Shinkansen
+  - A good trip
+
+--------------------------------------------------
+
+Image: tr_img_06047.txt
+Fuzzy_Avg: 0.794
+GT Text Lines (4):
+  - Pine
+  -  Minami 1jo store
+  - Matsuo Jingisukan
+  - Hokkaido specialty
+OCR Text Lines (3):
+  - Suo Jingisu Kan
+  - Hokkaido specialty
+  - Minami 1jo Store
+
+--------------------------------------------------
+
+Image: tr_img_06066.txt
+Fuzzy_Avg: 0.748
+GT Text Lines (3):
+  - Shimizu Aioicho
+  - Shimizu
+  - aioi-cho
+OCR Text Lines (1):
+  - Shimizu Aioicho
+
+--------------------------------------------------
+
+
+--- Low Fuzzy Score Images ---
+
+Image: tr_img_06070.txt
+Fuzzy_Avg: 0.154
+GT Text Lines (1):
+  - Nipponbashi
+OCR Text Lines (2):
+  - Roku
+  - Leave the board
+
+--------------------------------------------------
+
+Image: tr_img_06043.txt
+Fuzzy_Avg: 0.166
+GT Text Lines (8):
+  - Tsuji
+  - 5-chome
+  - 14-6
+  - Dog
+  - Dog
+  - Dog
+  - NHK
+  - 15.5
+OCR Text Lines (2):
+  - Grass
+  - Fifth Street
+
+--------------------------------------------------
+
+Image: tr_img_06042.txt
+Fuzzy_Avg: 0.171
+GT Text Lines (3):
+  - Driku Otsure
+  - One or more dishes
+  - For those who place an order
+OCR Text Lines (1):
+  - A thud
+
+--------------------------------------------------

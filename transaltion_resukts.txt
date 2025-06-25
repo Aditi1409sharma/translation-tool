@@ -1,0 +1,653 @@
+[nltk_data]   Package punkt is already up-to-date!
+  0%|                                                                                                                                                                                                                                                     | 0/100 [00:00<?, ?it/s]0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06006
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06008
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06017
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+ 23%|██████████████████████████████████████████████████████                                                                                                                                                                                     | 23/100 [00:00<00:00, 201.53it/s]0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06034
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+ 44%|███████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                                                   | 44/100 [00:00<00:00, 174.49it/s]0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06050
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06059
+[SKIP] No OCR rows found for image ID: 06060
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+ 62%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                         | 62/100 [00:00<00:00, 150.65it/s]0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06065
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+ 78%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                    | 78/100 [00:00<00:00, 91.81it/s]0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06090
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+[SKIP] No OCR rows found for image ID: 06098
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+0    tr_img_06004
+1    tr_img_06005
+2    tr_img_06001
+3    tr_img_06001
+4    tr_img_06001
+Name: Image_Name, dtype: object
+['06004' '06005' '06001' '06003' '06007']
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 127.20it/s] 
+✅ Evaluation complete. Results saved to translation_comparison_summary.csv
+        GT_Count  Matched_85+  Fuzzy_Avg   BLEU_Avg
+count  90.000000    90.000000  90.000000  90.000000
+mean    9.455556     1.588889   0.472713   0.094470
+std    12.675874     2.130013   0.155390   0.115967
+min     1.000000     0.000000   0.153846   0.000000
+25%     3.000000     0.000000   0.357955   0.025434
+50%     5.000000     1.000000   0.491505   0.058017
+75%     9.750000     2.000000   0.582500   0.111488
+max    67.000000    11.000000   0.814815   0.500000
+(jap_ocr) 
