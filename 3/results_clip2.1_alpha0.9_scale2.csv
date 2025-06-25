@@ -1,0 +1,6 @@
+Parameter,Value
+CLAHE_clip,2.1
+Sharpen_alpha,0.9
+Scale_factor,2
+Total_boxes,376
+Avg_confidence,0.2087
