@@ -7,9 +7,9 @@ from difflib import SequenceMatcher
 
 # Your directories
 GT_DIR = "C:/Users/aditi/GT"
-CSV_DIR = "3_lower_thresh_2"  # use your OUTPUT_DIR here
+CSV_DIR = "3_lower_thresh_2_500"  # use your OUTPUT_DIR here
 START_IDX = 6001
-END_IDX = 6100
+END_IDX = 6500
 
 MAX_DISTANCE = 50  # px
 SIMILARITY_THRESHOLD = 0.5

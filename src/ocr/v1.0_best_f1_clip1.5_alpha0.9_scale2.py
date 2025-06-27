@@ -8,12 +8,12 @@ from difflib import SequenceMatcher
 
 # --- Paths ---
 IMAGE_DIR = "C:/Users/aditi/ImagesPart2"
-OUTPUT_DIR = "3_lower_thresh_2"
+OUTPUT_DIR = "3_lower_thresh_2_500"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Parameters
 START_IDX = 6001
-END_IDX = 6100
+END_IDX = 6500
 
 # Initialize OCR once, thread-safe for PaddleOCR (shared read-only)
 ocr = PaddleOCR(use_angle_cls=True, lang='japan')
@@ -209,7 +209,7 @@ def process_image(idx, clip, alpha, scale, csv_file, debug_dir=None):
 
 # --- Main parameter grid search ---
 def main():
-    clahe_clip_values = clahe_clip_values = [1.5, 1.7, 2.0]
+    clahe_clip_values = clahe_clip_values = [1.5]
 
     sharpen_alpha_values = [0.9]
     scale_factors = [2]

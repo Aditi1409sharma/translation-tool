@@ -3,7 +3,7 @@ import pandas as pd
 from difflib import SequenceMatcher
 
 GT_TRANSLATED_FOLDER = "C:/Users/aditi/GT_trans"
-OCR_CSV = "3_lower_thresh_2/translated_boxes_clip1.5_alpha0.9_scale2.csv"
+OCR_CSV = "3_lower_thresh_2_500/translated_boxes_clip1.5_alpha0.9_scale2.csv"
 
 ocr_df = pd.read_csv(OCR_CSV)
 ocr_df["Image_ID"] = ocr_df["Image_Name"].str.extract(r"(\d+)$")
@@ -17,10 +17,10 @@ def load_text_lines(gt_path):
         return [line for line in lines if line not in ["###", "", "None"]]
 
 # Load your evaluation results from CSV
-results_df = pd.read_csv("translation_comparison_summary_low_thresholds.csv")
+results_df = pd.read_csv("translation_eval_advanced.csv")
 
 # Pick top 3 highest and lowest fuzzy avg images
-top_n = 3
+top_n = 10
 top_images = results_df.sort_values("Fuzzy_Avg", ascending=False).head(top_n)
 bottom_images = results_df.sort_values("Fuzzy_Avg").head(top_n)
 

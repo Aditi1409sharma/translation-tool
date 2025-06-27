@@ -10,8 +10,8 @@ GT_FOLDER = "C:/Users/aditi/GT"
 OUTPUT_GT_FOLDER = "C:/Users/aditi/GT_trans"
 os.makedirs(OUTPUT_GT_FOLDER, exist_ok=True)
 
-CSV_PATH = "3_lower_thresh_2/boxes_clip1.5_alpha0.9_scale2.csv"
-OUTPUT_CSV_PATH = "3_lower_thresh_2/translated_boxes_clip1.5_alpha0.9_scale2.csv"
+CSV_PATH = "3_lower_thresh_2_500/boxes_clip1.5_alpha0.9_scale2.csv"
+OUTPUT_CSV_PATH = "3_lower_thresh_2_500/translated_boxes_clip1.5_alpha0.9_scale2.csv"
 
 # --- Translate helper ---
 def translate_text(text):
@@ -23,7 +23,7 @@ def translate_text(text):
 
 # --- Step 1: Translate GT files (first 100) ---
 print(">>> Translating GT files (first 100)...")
-gt_files = sorted([f for f in os.listdir(GT_FOLDER) if f.endswith(".txt")])[:100]
+gt_files = sorted([f for f in os.listdir(GT_FOLDER) if f.endswith(".txt")])[:500]
 
 for gt_file in tqdm(gt_files):
     with open(os.path.join(GT_FOLDER, gt_file), "r", encoding="utf-8") as f:

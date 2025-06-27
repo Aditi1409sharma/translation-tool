@@ -1,34 +1,25 @@
-# import pandas as pd
+import pandas as pd
 
-# # Load the evaluation results
-# df = pd.read_csv("translation_comparison_summary.csv")
+# Load evaluation results
+df = pd.read_csv("translation_eval_advanced.csv")
 
-# # # Load detailed comparison file if available
-# # details_df = pd.read_csv("translation_comparison_detailed.csv")
+# Find samples with the lowest scores for each metric
+lowest_fuzzy = df.nsmallest(5, "Fuzzy_Avg")
+lowest_chrf = df.nsmallest(5, "ChrF++_Avg")
+highest_ter = df.nlargest(5, "TER_Avg")  # Higher TER = worse
 
-# # Join on image name if needed
-# merged_df = df
+# Combine and drop duplicates
+combined_low_scores = pd.concat([lowest_fuzzy, lowest_chrf, highest_ter]).drop_duplicates()
 
-# # Pick a few samples with the lowest fuzzy/BLEU scores
-# low_fuzzy_samples = merged_df.sort_values("Fuzzy_Avg").head(5)
-# low_bleu_samples = merged_df.sort_values("BLEU_Avg").head(5)
+# Save the problematic translations for review
+combined_low_scores.to_csv("low_score_translation_samples.csv", index=False)
 
-# # Show for inspection
-# print("\n--- Lowest Fuzzy Match Samples ---")
-# print(low_fuzzy_samples[["Image","GT_Count","Matched_85+","Fuzzy_Avg","BLEU_Avg"]])
+print("✅ Saved low-quality translation samples to low_score_translation_samples.csv")
 
-# print("\n--- Lowest BLEU Score Samples ---")
-# print(low_bleu_samples[["Image","GT_Count","Matched_85+","Fuzzy_Avg","BLEU_Avg"]])
-# lowest_fuzzy = df.nsmallest(5, "Fuzzy_Avg")
-# lowest_bleu = df.nsmallest(5, "BLEU_Avg")
+# Optional: Preview
+print("\n--- Low Score Samples Preview ---")
+print(combined_low_scores[["Image", "GT_Count", "Fuzzy_Avg", "ChrF++_Avg", "TER_Avg"]])
 
-# # Combine and drop duplicates
-# combined_low_scores = pd.concat([lowest_fuzzy, lowest_bleu]).drop_duplicates()
-
-# # Save to CSV
-# combined_low_scores.to_csv("low_score_translation_samples.csv", index=False)
-
-# print("✅ Saved to low_score_translation_samples.csv")
 
 
 import pandas as pd
@@ -38,9 +29,9 @@ import os
 # --- Paths ---
 IMAGE_DIR = "C:/Users/aditi/ImagesPart2"
 GT_DIR = "C:/Users/aditi/GT_Trans"  # Folder containing per-image translated GT files
-OCR_FILE = "3_lower_thresh_2/translated_boxes_clip1.5_alpha0.9_scale2.csv"
+OCR_FILE = "3_lower_thresh_2_500/translated_boxes_clip1.5_alpha0.9_scale2.csv"
 BAD_IMAGE_LIST = "low_score_translation_samples.csv"
-OUTPUT_DIR = "translation_visuals"
+OUTPUT_DIR = "translation_visuals_500"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --- Load OCR results and bad images list ---

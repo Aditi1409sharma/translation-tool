@@ -651,3 +651,262 @@ min     1.000000     0.000000   0.153846   0.000000
 75%     9.750000     2.000000   0.582500   0.111488
 max    67.000000    11.000000   0.814815   0.500000
 (jap_ocr) 
+
+
+on 500 images         on 500 images                on 500 images              on 500 images            on 500 images
+
+         GT_Count   Fuzzy_Avg  ChrF++_Avg     TER_Avg
+count  499.000000  499.000000  499.000000  499.000000
+mean    10.448898    0.396420   27.282569  113.263511
+std     16.235308    0.223600   20.908732   83.836845
+min      1.000000    0.000000    0.000000    0.000000
+25%      3.000000    0.247452    8.337327   55.555556
+50%      5.000000    0.421053   25.505506  100.000000
+75%     12.000000    0.552685   42.543044  157.142857
+max    184.000000    1.000000  100.000000  600.000000
+
+1 remioved due to 0 gt
+
+
+
+--- High Fuzzy Score Images ---
+
+Image: tr_img_06150.txt
+Fuzzy_Avg: 1.000
+GT Text Lines (1):
+  - Deep-144
+OCR Text Lines (1):
+  - Deep-144
+
+--------------------------------------------------
+
+Image: tr_img_06265.txt
+Fuzzy_Avg: 1.000
+GT Text Lines (1):
+  - Higashi Nihonbashi 2-chome
+OCR Text Lines (1):
+  - Higashi Nihonbashi 2-chome
+
+--------------------------------------------------
+
+Image: tr_img_06475.txt
+Fuzzy_Avg: 1.000
+GT Text Lines (1):
+  - Ito Yoshio
+OCR Text Lines (1):
+  - Ito Yoshio
+
+--------------------------------------------------
+
+Image: tr_img_06310.txt
+Fuzzy_Avg: 1.000
+GT Text Lines (1):
+  - 5 Murakami Community Center
+OCR Text Lines (1):
+  - 5 Murakami Community Center
+
+--------------------------------------------------
+
+Image: tr_img_06322.txt
+Fuzzy_Avg: 1.000
+GT Text Lines (1):
+  - Yamaha Music School
+OCR Text Lines (1):
+  - Yamaha Music School
+
+--------------------------------------------------
+
+Image: tr_img_06121.txt
+Fuzzy_Avg: 0.966
+GT Text Lines (1):
+  - Hokkai Academy
+OCR Text Lines (1):
+  - Hokukai Academy
+
+--------------------------------------------------
+
+Image: tr_img_06282.txt
+Fuzzy_Avg: 0.955
+GT Text Lines (2):
+  - Nishi-Shinjuku 5-chome
+  - Nishi-shinjuku-gochome
+OCR Text Lines (1):
+  - Nishi-Shinjuku 5-chome
+
+--------------------------------------------------
+
+Image: tr_img_06134.txt
+Fuzzy_Avg: 0.950
+GT Text Lines (2):
+  - Udagawacho
+  - Udagawachō
+OCR Text Lines (1):
+  - Udagawacho
+
+--------------------------------------------------
+
+Image: tr_img_06393.txt
+Fuzzy_Avg: 0.880
+GT Text Lines (1):
+  - !Height note
+OCR Text Lines (1):
+  - Δ Height Note
+
+--------------------------------------------------
+
+Image: tr_img_06235.txt
+Fuzzy_Avg: 0.852
+GT Text Lines (6):
+  - Non-smoking
+  - This place and
+  - On the road in front of a building
+  - Don't smoke in Japanese
+  - please
+  - Satsuki Building Manager
+OCR Text Lines (6):
+  - no smoking
+  - Two places and
+  - On the road in front of you
+  - Don't smoke
+  - Please
+  - Satsuki Building Manager
+
+--------------------------------------------------
+
+
+--- Low Fuzzy Score Images ---
+
+Image: tr_img_06379.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (1):
+  - Flesh power
+OCR Text Lines (1):
+  - 2
+
+--------------------------------------------------
+
+Image: tr_img_06090.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (2):
+  - FamilyMart
+  - Sake Tahako
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06429.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (4):
+  - Nipponbashi
+  - Ningyocho
+  - 1st-chome
+  - 16-5
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06430.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (1):
+  - Samuho
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06333.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (3):
+  - SERVICE
+  - FACTORY
+  - Yamaha authorized dealer
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06432.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (4):
+  - Nasoyonal
+  - Your Cycle Sefter
+  - 0120-129-365
+  - Muto Bicycle Shop
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06433.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (4):
+  - Nakahara-ku
+  - Homoon
+  - 2-chome
+  - 11-18
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06332.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (38):
+  - For outings within the 23 wards of Tokyo!
+  - Tokyo-ku pass
+  - 750 yen per day
+  - You can get on and off for a whole day.
+  -  JR lines within the 23 wards of Tokyo
+  - Great savings
+  - Enjoyed!
+  - Tokoto
+  - Play it!
+  - Aly Area
+  - Shinjuku
+  - Yogagi
+  - Shibuya
+  - Nishi-Oi
+  - Kamata
+  - JR
+  - Shinagawa
+  - Suidobashi
+  - Tokyo
+  - Kanda
+  - Nomizu
+  - Ueno
+  - Nippori
+  - Tazaki
+  - Ikebukuro
+  - Akihabara
+  - Kita Chika
+  - Kanamachi
+  - Koiwa
+  - Kasai Nankai Park
+  - Reserved seat ticket machine
+  -  is convenient!
+  - Daily
+  - valid
+  - 750 yen
+  - Children
+  - 370 yen
+  -  within the 23 districts of Nanjing (the above free area)
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06219.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (5):
+  - Kitaichi
+  - Ltd.
+  - Tonoda
+  - Fish
+  - 512-7773
+OCR Text Lines (0):
+
+--------------------------------------------------
+
+Image: tr_img_06065.txt
+Fuzzy_Avg: 0.000
+GT Text Lines (2):
+  - Emiko
+  - Yoshio Yukimura
+OCR Text Lines (0):
+
+--------------------------------------------------

@@ -6,9 +6,9 @@ from tqdm import tqdm
 from difflib import SequenceMatcher
 
 GT_DIR = "C:/Users/aditi/GT"
-CSV_DIR = "2"
+CSV_DIR = "3_lower_thresh_2_500"
 START_IDX = 6001
-END_IDX = 6100
+END_IDX = 6500
 
 IOU_THRESHOLD = 0.3
 SIMILARITY_THRESHOLD = 0.75
