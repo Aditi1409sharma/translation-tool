@@ -100,7 +100,7 @@ ter = load("ter")
 
 # --- Paths ---
 GT_TRANSLATED_FOLDER = "C:/Users/aditi/GT_trans"
-OCR_CSV = "3_lower_thresh_2_500/translated_boxes_clip1.5_alpha0.9_scale2.csv"
+OCR_CSV = "best_version/translated_boxes_clip1.5_alpha0.9_scale2.csv"
 
 ocr_df = pd.read_csv(OCR_CSV)
 ocr_df["Image_ID"] = ocr_df["Image_Name"].str.extract(r"(\d+)$")
